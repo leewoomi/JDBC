@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context> 
+  <Resource name="DBConn" 
+   auth="Container"
+   type="javax.sql.DataSource" 
+   username="user08" 
+   password="user08"
+   driverClassName="oracle.jdbc.driver.OracleDriver"
+   factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+   url="jdbc:oracle:thin:@192.168.10.101:1521:xe"
+   maxActive="20" 
+   maxIdle="300"/>  
+</Context>

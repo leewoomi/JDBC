@@ -10,4 +10,13 @@ public interface UserDao {
 	// 처리결과는 아이디와 기타 필요한 정보 -> 하나로 묶어서 리턴
 	public Member login(Member member);
 
+	
+	//회원가입을 처리해주는 메소드 
+	public boolean insertMember(Member member);
+	
+	
+	//이메일 중복검사를 위한 메소드 
+	public boolean emailCheck(String email);
+	
+	
 }
